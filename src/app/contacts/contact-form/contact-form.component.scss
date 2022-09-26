@@ -1,0 +1,17 @@
+.full-width{
+  width: 100%;
+}
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+mat-card{
+  margin: 2em auto;
+  text-align: center;
+}
+
+.min-width{
+  width: 100%;
+  min-width: 150px;
+}
